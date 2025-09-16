@@ -1,0 +1,51 @@
+{
+    "name": "gelsoncamilo/mini-nlp-chat",
+    "description": "Pacote Laravel para integração de um chat Mini NLP escalável com IA integrativa.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GelsonCamilo\\MiniNLPChat\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GelsonCamilo\\MiniNLPChat\\MiniNLPChatServiceProvider"
+            ],
+            "aliases": {
+                "MiniNLPChat": "GelsonCamilo\\MiniNLPChat\\Facades\\MiniNLPChat"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "livewire/livewire": "^3.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Gelson Camilo",
+            "email": "gelson.camilo@tecnologiasarnaldo.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "nlp",
+        "chat",
+        "ia",
+        "machine-learning",
+        "integrative-ai",
+        "php",
+        "composer"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
