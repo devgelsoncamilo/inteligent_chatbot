@@ -1,5 +1,5 @@
 {
-    "name": "gelsoncamilo/mini-nlp-chat",
+    "name": "gelson-camilo/mini-nlp-chat",
     "description": "Pacote Laravel para integração de um chat Mini NLP escalável com IA integrativa.",
     "type": "library",
     "license": "MIT",
